@@ -5,7 +5,7 @@
 	<parent>
 		<groupId>org.springframework.boot</groupId>
 		<artifactId>spring-boot-starter-parent</artifactId>
-		<version>3.2.0</version>
+		<version>2.4.1</version>
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>haya-ryooo.site</groupId>
@@ -83,7 +83,7 @@
             <plugin>
 	            <groupId>org.springframework.boot</groupId>
 	            <artifactId>spring-boot-maven-plugin</artifactId>
-	            <version>3.2.0</version> <!-- あなたのSpring Bootのバージョンに合わせて変更 -->
+	            <version>2.5.4</version> <!-- あなたのSpring Bootのバージョンに合わせて変更 -->
 	            <executions>
 	                <execution>
 	                    <goals>
