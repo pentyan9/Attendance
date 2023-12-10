@@ -82,6 +82,21 @@
 					</excludes>
 				</configuration>
 			</plugin>
+            <plugin>
+	            <groupId>org.springframework.boot</groupId>
+	            <artifactId>spring-boot-maven-plugin</artifactId>
+	            <version>2.5.4</version> <!-- あなたのSpring Bootのバージョンに合わせて変更 -->
+	            <executions>
+	                <execution>
+	                    <goals>
+	                        <goal>repackage</goal>
+	                    </goals>
+	                </execution>
+	            </executions>
+	            <configuration>
+	                <mainClass>hayaryooo.site.Attendance.DemoApplication.java</mainClass> <!-- あなたのメインクラスのパスに変更 -->
+	            </configuration>
+	        </plugin>
 		</plugins>
 	</build>
 
