@@ -76,12 +76,6 @@
 		        <configuration>
 		            <source>11</source>
 		            <target>11</target>
-    				<excludes>
-						<exclude>
-							<groupId>org.projectlombok</groupId>
-							<artifactId>lombok</artifactId>
-						</exclude>
-					</excludes>
 		        </configuration>
 		    </plugin>
             <plugin>
@@ -96,10 +90,11 @@
 	                </execution>
 	            </executions>
 	            <configuration>
-	                <mainClass>hayaryooo.site.Attendance.DemoApplication.java</mainClass> <!-- あなたのメインクラスのパスに変更 -->
+	                <mainClass>hayaryooo.site.Attendance.DemoApplication</mainClass> <!-- あなたのメインクラスのパスに変更 -->
 	            </configuration>
 	        </plugin>
 		</plugins>
+
 	</build>
 
 </project>
