@@ -92,7 +92,7 @@
 	                </execution>
 	            </executions>
 	            <configuration>
-	                <mainClass>hayaryooo.site.Attendance.DemoApplication</mainClass> <!-- あなたのメインクラスのパスに変更 -->
+	                <mainClass>hayaryooo.site.Attendance.AttendanceApplication</mainClass> <!-- あなたのメインクラスのパスに変更 -->
 	            </configuration>
 	        </plugin>
 		</plugins>
